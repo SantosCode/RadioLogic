@@ -23,7 +23,7 @@ public class ConvenioDAOTest {
             ConvenioDAO convenioDAO = new ConvenioDAO();
             Convenio convenio = new Convenio();
             
-            convenio.setNome("OdontoPrev");
+            convenio.setNome("Amil");
             convenioDAO.salvar(convenio);
     }
     

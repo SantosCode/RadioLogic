@@ -23,7 +23,13 @@ public class DentistaDAOTest {
         DentistaDAO dentistaDAO = new DentistaDAO();
         Dentista dentista = new Dentista();
         
+       dentista.setNome("Paulo Renato");
+       dentista.setEndereco("Rua Conselheiro Saraiva, 70, São Paulo");
+       dentista.setClinica("Radiodoc");
+       dentista.setTelefone("(11) 4106-3383");
+       dentista.setEmail("paulo.renato@radiodoc.com.br");
        
+       dentistaDAO.salvar(dentista);
     }
     
 }

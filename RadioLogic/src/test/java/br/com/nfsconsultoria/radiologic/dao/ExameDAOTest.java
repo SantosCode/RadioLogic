@@ -21,10 +21,10 @@ public class ExameDAOTest {
         ExameDAO exameDAO = new ExameDAO();
         Exame exame = new Exame();
         ConvenioDAO convenioDAO = new ConvenioDAO();
-        Convenio convenio = convenioDAO.buscarNome("OdontoPrev");
+        Convenio convenio = convenioDAO.buscarNome("Amil");
         
         exame.setNome("Panoramica");
-        exame.setValor(new BigDecimal(70.20));
+        exame.setValor(new BigDecimal(60.30));
         exame.setConvenioIdconvenio(convenio);
         exameDAO.salvar(exame);
     }
