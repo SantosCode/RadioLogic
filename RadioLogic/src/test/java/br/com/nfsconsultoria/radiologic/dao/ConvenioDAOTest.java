@@ -6,6 +6,7 @@
 package br.com.nfsconsultoria.radiologic.dao;
 
 import br.com.nfsconsultoria.radiologic.domain.Convenio;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -18,6 +19,7 @@ public class ConvenioDAOTest {
     }
   
     @Test
+    @Ignore
     public void salvar() {
         
             ConvenioDAO convenioDAO = new ConvenioDAO();

@@ -11,6 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -20,6 +21,7 @@ import org.junit.Test;
 public class FuncionarioDAOTest {
    
     @Test
+    @Ignore
     public void salvar() {
         try {
             FuncionarioDAO funcionarioDAO = new FuncionarioDAO();

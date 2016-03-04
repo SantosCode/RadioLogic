@@ -8,6 +8,7 @@ package br.com.nfsconsultoria.radiologic.dao;
 import br.com.nfsconsultoria.radiologic.domain.Convenio;
 import br.com.nfsconsultoria.radiologic.domain.Exame;
 import java.math.BigDecimal;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -17,6 +18,7 @@ import org.junit.Test;
 public class ExameDAOTest {
    
     @Test
+    @Ignore
     public void testSomeMethod() {
         ExameDAO exameDAO = new ExameDAO();
         Exame exame = new Exame();

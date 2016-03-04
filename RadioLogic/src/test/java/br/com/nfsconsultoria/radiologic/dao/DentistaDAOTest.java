@@ -6,6 +6,7 @@
 package br.com.nfsconsultoria.radiologic.dao;
 
 import br.com.nfsconsultoria.radiologic.domain.Dentista;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -18,6 +19,7 @@ public class DentistaDAOTest {
     }
     
     @Test
+    @Ignore
     public void salvar() {
        
         DentistaDAO dentistaDAO = new DentistaDAO();
