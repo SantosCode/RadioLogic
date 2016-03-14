@@ -30,7 +30,7 @@ public class FuncionarioDAOTest {
             SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
             Date data = sdf.parse("07/01/1983");
             
-            funcionario.setNome("Luis Santos");
+            funcionario.setNome("Ricardo Souza");
             funcionario.setCpf("320.000.558-00");
             funcionario.setEmail("luis.santos@nfsconsultoria.com.br");
             funcionario.setEndereco("Rua Dr. Cândido ores, 160, São Paulo");
